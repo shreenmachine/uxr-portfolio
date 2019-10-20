@@ -1,0 +1,63 @@
+
+/*SM VIEWPORT*/
+
+@media screen and (min-width: 480px) {
+	section.box {
+	      padding: 1em 0.25em;
+	}
+	.container {
+	  position: relative;
+	  width: 100%;
+	  max-width: 14em;
+	  display: inline-block;
+	  margin: 0 1em 0.2em 0;
+	}
+	.menu-button {
+	  width: 8%;  
+	  float: right;
+	  padding: 1.25em;
+	}
+} 
+
+
+/*MD VIEWPORT*/
+
+@media screen and (min-width: 768px) {
+	section.box {
+	      padding: 1em 2.25em;
+	}
+	.container {
+	  position: relative;
+	  width: 42%;
+	  max-width: 14em;
+	  display: inline-block;
+	  margin: 0 1em 0.2em 0;
+	}
+	.menu li {
+	  display: inline-block;
+	  padding: 1.25em;
+	}
+	.menu-button {
+	  width: 4%;  
+	  float: right;
+	  padding: 1.25em;
+	}
+	header img {
+
+	}
+} 
+
+
+/*LG VIEWPORT*/
+
+@media screen and (min-width: 1024px) {
+	.container {
+
+	}
+	img {
+
+	}
+	section {
+
+	}
+}

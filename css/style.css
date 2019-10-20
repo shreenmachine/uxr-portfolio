@@ -1,0 +1,243 @@
+
+body {
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 5em 0 0;
+  box-sizing: border-box;
+  min-width: 290px;
+}
+h1 {
+  font-size: 2.25em;
+    }
+h2 {
+  font-size: 1.75em;
+}
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+}
+p {
+  line-height: 1.5em;
+  font-size: 1em;
+}
+ol {
+  line-height: 1.5em;
+}
+ul {
+  line-height: 1.5em;
+}
+ul.webicons {
+  list-style-type: none;
+  margin: 0; 
+  padding: 0;
+  line-height: 3.5em;
+}
+a {
+  text-decoration: none;
+  color: #333;
+  font-family: 'Oswald', sans-serif;
+  font-size: larger;
+}
+a:hover {
+  color: #47556e;
+} 
+img.logo {
+  margin: 0 auto;
+  display: block;
+}
+img.profile {
+  float: right;
+  border: 0.0625em solid #919191;
+  border-radius: 50%;
+  width: 14.375em;
+  height: 14.375em;
+  padding: 0.3125em;
+  margin: 1.875em 0 0 1.875em;
+}
+img.portfolio-img {
+  width: 90%;
+}
+img.research  {
+  border: 0.0625em solid #919191;
+  width: 15.625em;
+  padding: 0.3125em;
+  margin: 0.2em 0.5em 0.2em 0;
+}
+img.webicons {
+  width: 1.875em;
+  margin: 0 1.25em 0 0.3125em;
+}
+section.box {
+  padding: 1em 2.25em;
+  text-align: left;
+}
+section.box h2, section.box h3 {
+  color: #333;
+}
+section.about {
+  overflow: hidden;
+}
+section.about h2 {
+  text-align: left;
+}
+section.portfolio {
+  text-align: center;
+}
+section.portfolio h2 {
+  text-align: left;
+}
+section.contact {
+  background: rgba(71, 85, 110, 0.70);
+  text-align: left;
+  padding: 2% 15% 30%;
+}
+section.contact h2 {
+  text-align: left;
+}
+section.article {
+  text-align: left;
+}
+
+.logo {
+  float: left;
+  font-size: 1.375em;
+  text-align: left;
+}
+.logo p {
+  font-size: 0.875em;
+  font-style: italic;
+  margin: 0;
+}
+.navbar {
+  display: inline-block;
+  float: right;
+}
+.mobile-navbar {
+  display: inline-block;
+  float: right;
+}
+.portfolio-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 0.0625em solid #919191;
+  padding: 0.3125em;
+}
+.about a {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+}
+.container {
+  position: relative;
+  display: inline-block;
+  margin: 1% 2.5% 3%;
+  width: 27%
+}
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.6); 
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 1em;
+  padding: 1.25em 0.34em;
+  text-align: center;
+  font-family: sans-serif;
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  border-bottom: 0.0625em solid #434A5C; /* clean black bottom line bottom */
+  background: rgba(255, 255, 255, 1); /* menu colour to appear overtop all content*/
+  position: fixed; /*  scroll thru page w/ menu on top */
+  top: 0;  /*  */ 
+  left: 0; /*  */
+  width: 100%; /*  stretch full width across screen */
+  min-width: 280px; /* stop in time to not look dumb */
+  z-index: 1; /* show in front of all other content at all times */
+}
+
+.menu li {
+  display: inline-block; /* appear beside each other at desktop view */
+  padding: 1.25em; /*  gimme some room whydontchya */
+}
+
+.menu a {
+  font-weight: bold; /* bulk it up  */
+  text-transform: uppercase; /* casual shouting */
+}  
+
+
+.line {
+  height: 0;
+  border-bottom: solid 0.0625em #dcdcdc;
+  padding-top: 5em;
+}
+.bottom {
+  padding-bottom: 4%;
+}
+.email-tests  {
+  width: 18%;
+}
+.email-test-results  {
+  width: 70%;
+  min-width: 500px;
+}
+.portfolio {
+  text-align: left;
+}
+#cta {
+  display: inline-block;
+  padding: 1%;
+  margin: 2% 42% 0;
+  text-align: center;
+  background: rgba(71, 85, 110, 0.50);
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+#cta a {
+  text-decoration: none;
+  color: #333;
+  font-family: 'Oswald', sans-serif;
+}  
+#quote {
+  font-size: 1.5em;
+  text-align: center;
+  font-family: serif;
+  padding: 1.1em;
+}
+
+
+
+/*LG VIEWPORT*/
+
+@media screen and (min-width: 1024px) {
+  section.box {
+    padding: 1em 6.25em;
+  }
+  section.contact {
+    padding: 2% 15% 20%;
+  }
+  .menu li {
+    display: inline-block;
+    padding: 1.25em 2.1875em;
+  }
+  .line {
+    padding-top: 6em;
+  }
+/*  #middle-container {
+    margin: 0 5%;
+  }*/
+}
